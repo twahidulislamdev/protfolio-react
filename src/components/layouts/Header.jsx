@@ -4,6 +4,7 @@ import Image from "../Image";
 import HeaderLogo from "../../assets/Logo.png";
 import Menu from "../Menu";
 import Button from "../Button";
+import { LuMail } from "react-icons/lu";
 
 const Header = () => {
   return (
@@ -32,9 +33,13 @@ const Header = () => {
             </div>
             <Button
               className={
-                "bg-[#5E3BEE] py-[10px] px-5 text-base font-medium font-poppins rounded-2xl text-white uppercase hover:bg-black duration-300 delay-200 hover:cursor-pointer"
+                "flex items-center gap-x-2 bg-[#5E3BEE] py-3 px-5 text-base font-medium font-poppins rounded-2xl text-white uppercase hover:bg-black duration-300 delay-200 hover:cursor-pointer"
               }
-              btnTxt={"Hire Me"}
+              btnTxt={
+                <>
+                  Hire Me <LuMail />
+                </>
+              }
             />
           </Flex>
         </Container>
