@@ -5,6 +5,7 @@ import CounterUp from '../layouts/CounterUp'
 import Service from '../layouts/Service'
 import Graphic from '../layouts/Graphic'
 import Brand from '../layouts/Brand'
+import Protfolio from '../layouts/Protfolio'
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
     <Service/>
     <Graphic/>
     <Brand/>
+    <Protfolio/>
     </>
   )
 }
