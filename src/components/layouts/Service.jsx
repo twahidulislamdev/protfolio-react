@@ -29,18 +29,36 @@ const Service = () => {
     <section className="py-20 bg-gray-100">
       <Container>
         <div className="">
-            {/* <p className="text-center text-xl text-[#5E3BEE] font-medium font-poppins">SERVICE</p> */}
-            {/* <h3 className="text-center text-[40px] font-semibold font-poppins mt-2">What I Do For My Customer.</h3> */}
-            
-            {/* <h6 className="text-center text-lg text-[#121212] font-normal font-poppins w-2/4 m-auto mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</h6> */}
+          {/* <p className="text-center text-xl text-[#5E3BEE] font-medium font-poppins">SERVICE</p> */}
+          {/* <h3 className="text-center text-[40px] font-semibold font-poppins mt-2">What I Do For My Customer.</h3> */}
 
-             <Heading className={"text-center text-xl text-[#5E3BEE] font-medium font-poppins"} text={"SERVICE"} as={"p"}/>
+          {/* <h6 className="text-center text-lg text-[#121212] font-normal font-poppins w-2/4 m-auto mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</h6> */}
 
-            <Heading className={"text-center text-[40px] font-semibold font-poppins mt-2"} text={"What I Do For My Customer."} as={"h3"}/>
+          <Heading
+            className={
+              "text-center text-xl text-[#5E3BEE] font-medium font-poppins"
+            }
+            text={"SERVICE"}
+            as={"p"}
+          />
 
-            <Heading className={"text-center text-lg text-[#121212] font-normal font-poppins w-2/4 m-auto mt-2"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl."} as={"h6"}/>
+          <Heading
+            className={
+              "text-center text-[40px] font-semibold font-poppins mt-2"
+            }
+            text={"What I Do For My Customer."}
+            as={"h3"}
+          />
 
-            
+          <Heading
+            className={
+              "text-center text-lg text-[#121212] font-normal font-poppins w-2/4 m-auto mt-2"
+            }
+            text={
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl."
+            }
+            as={"h6"}
+          />
         </div>
         <div className="mt-15">
           <Flex className={"justify-between"}>

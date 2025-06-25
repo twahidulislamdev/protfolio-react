@@ -3,10 +3,10 @@ import Container from "../Container";
 import Flex from "../Flex";
 import Heading from "../Heading";
 import ProtfolioCard from "../ProtfolioCard";
-import ProtfolioImgOne from "../../assets/protfolioImgOne.png"
-import ProtfolioImgTwo from "../../assets/protfolioImgTwo.png"
-import ProtfolioImgThree from "../../assets/protfolioImgThree.png"
-import ProtfolioImgFour from "../../assets/protfolioImgFour.png"
+import ProtfolioImgOne from "../../assets/protfolioImgOne.png";
+import ProtfolioImgTwo from "../../assets/protfolioImgTwo.png";
+import ProtfolioImgThree from "../../assets/protfolioImgThree.png";
+import ProtfolioImgFour from "../../assets/protfolioImgFour.png";
 
 const Protfolio = () => {
   return (

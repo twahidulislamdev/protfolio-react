@@ -6,6 +6,7 @@ import Service from '../layouts/Service'
 import Graphic from '../layouts/Graphic'
 import Brand from '../layouts/Brand'
 import Protfolio from '../layouts/Protfolio'
+import Clint from '../layouts/Clint'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
     <Graphic/>
     <Brand/>
     <Protfolio/>
+    <Clint/>
     </>
   )
 }
