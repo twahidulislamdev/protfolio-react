@@ -7,6 +7,8 @@ import Graphic from '../layouts/Graphic'
 import Brand from '../layouts/Brand'
 import Protfolio from '../layouts/Protfolio'
 import Clint from '../layouts/Clint'
+import Interested from '../layouts/Interested'
+import Footer from '../layouts/Footer'
 
 
 
@@ -21,6 +23,8 @@ const Home = () => {
     <Brand/>
     <Protfolio/>
     <Clint/>
+    <Interested/>
+    <Footer/>
     </>
   )
 }

@@ -17,16 +17,16 @@ const Header = () => {
             </div>
             <div className="">
               <Menu className={"flex gap-x-10"}>
-                <li className="text-base font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
+                <li className="text-lg font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
                   Home
                 </li>
-                <li className="text-base font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
+                <li className="text-lg font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
                   About
                 </li>
-                <li className="text-base font-medium  hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
+                <li className="text-lg font-medium  hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
                   Service
                 </li>
-                <li className="text-base font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
+                <li className="text-lg font-medium hover:text-[#5E3BEE] hover:cursor-pointer uppercase font-poppins duration-300 delay-200 ">
                   Contact
                 </li>
               </Menu>
